@@ -1,11 +1,11 @@
 #-------------------------------
 # General Site Settings
 
-title: Parsa | Portfolio Jekyll Template
+title: TCF | The Coders Family
 logo: logo.png # You can add own logo
-description: # Add your awesome description
+description: This is a test description. # Add your awesome description
 baseurl: "" # The subpath of your site, e.g. /blog
-url: "" # The base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.thecoders.family" # The base hostname & protocol for your site, e.g. http://example.com
 
 # Preloader
 preloader: true # To disable preloader change value to false
@@ -13,8 +13,8 @@ preloader: true # To disable preloader change value to false
 menu:
   - url: /
     name: Home
-  - url: /about/
-    name: About
+# - url: /about/
+#   name: About
   - url: /categories/
     name: Categories
   - url: /contact/
@@ -46,26 +46,26 @@ hero:
 #-------------------------------
 # Author Settings
 author:
-  name: Jhon Abraham
+  name: The Coders Family
 
 #-------------------------------
 # Contact Info
 contact:
-  email: example@ymail.com
-  phone: +90 000 333 22
+  email: thecodersfamily@gmail.com
+  # phone: +91 000 0000 000
   address:
-    city: Sydney
-    street: 6 rip carl Avenue CA 90733
+    city: Gurugram, Haryana, India
+    # street: Gurugram
 
 # Contact Form
-contact-form: example@ymail.com
+contact-form: thecodersfamily@gmail.com
 
 # Social links
 social:
-- {icon: "ti-facebook", link: "#"}
-- {icon: "ti-twitter-alt", link: "#"}
-- {icon: "ti-linkedin", link: "#"}
-- {icon: "ti-github", link: "#"}
+# - {icon: "ti-facebook", link: "#"}
+# - {icon: "ti-twitter-alt", link: "#"}
+# - {icon: "ti-linkedin", link: "#"}
+- {icon: "ti-github", link: "https://github.com/thecodersfamily/"}
 
 #-------------------------------
 # Comment Section (Disqus)
@@ -73,13 +73,13 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 
 #-------------------------------
 # Instagram Feed
-instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
-userID: 4044026246
-accessToken: 4044026246.1677ed0.8896752506ed4402a0519d23b8f50a17
+# instafeed: true # To enable the instafeed, use the value true. To turn off use the value false.
+# userID: 4044026246
+# accessToken: 4044026246.1677ed0.8896752506ed4402a0519d23b8f50a17
 
 #-------------------------------
 # Google Analytics
-google-analytics: # Add your identifier. For example UA-99631805-1.
+google-analytics: UA-149266959-2 # Add your identifier. For example UA-99631805-1.
 
 #-------------------------------
 # Build settings
