@@ -15,7 +15,7 @@
       </div>
       <div class="media-body">
         <ul class="list-inline d-flex justify-content-between mb-2">
-          <li class="list-inline-item">Post By {{site.author.name | split: ' ' | first}}</li>
+          <li class="list-inline-item">Post By {{site.author.name}}</li>
           <li class="list-inline-item">{{post.date | date: "%B %-d, %Y"}}</li>
         </ul>
         <h6><a class="text-dark" href="{{ post.url }}">{{ post.title }}</a></h6>
@@ -30,7 +30,7 @@
     <ul class="list-inline tag-list">
       {% for item in (0..site.tags.size) %}{% unless forloop.last %}
       {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
-      <li class="list-inline-item m-1"><a href="{{ site.baseurl }}/tag/{{ this_word | cgi_escape }}">{{ this_word }}</a></li>
+      <li class="list-inline-item m-1"><a href="{{ site.baseurl }}/tag/{{ this_word | cgi_escape | downcase }}">{{ this_word }}</a></li>
       {% endunless %}{% endfor %}
     </ul>
   </div>
